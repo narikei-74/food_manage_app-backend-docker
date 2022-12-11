@@ -23,6 +23,7 @@ services:
       - "3306:3306"
     environment:
       - MYSQL_DATABASE=food_manage
+      - MYSQL_HOST=mysql
       - MYSQL_USER=narita
       - MYSQL_PASSWORD=narita1005
       - MYSQL_ROOT_PASSWORD=narita1005
